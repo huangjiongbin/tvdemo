@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="./css/Investmentlist.css" />
+    <script>
+        (function (win) {
+            var remCalc = {};
+            var docEl = win.document.documentElement,
+                tid;
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                if (width > 640) {
+                    width = 640
+                }
+                var rem = width / 10;
+                docEl.style.fontSize = rem + "px";
+                remCalc.rem = rem;
+                var actualSize = parseFloat(window.getComputedStyle(document.documentElement)["font-size"]);
+                if (actualSize !== rem && actualSize > 0 && Math.abs(actualSize - rem) > 1) {
+                    var remScaled = rem * rem / actualSize;
+                    docEl.style.fontSize = remScaled + "px"
+                }
+            }
+
+            function dbcRefresh() {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 100)
+            }
+            win.addEventListener("resize", function () {
+                dbcRefresh()
+            }, false);
+            win.addEventListener("pageshow", function (e) {
+                if (e.persisted) {
+                    dbcRefresh()
+                }
+            }, false);
+            refreshRem();
+            remCalc.refreshRem = refreshRem;
+            remCalc.rem2px = function (d) {
+                var val = parseFloat(d) * this.rem;
+                if (typeof d === "string" && d.match(/rem$/)) {
+                    val += "px"
+                }
+                return val
+            };
+            remCalc.px2rem = function (d) {
+                var val = parseFloat(d) / this.rem;
+                if (typeof d === "string" && d.match(/px$/)) {
+                    val += "rem"
+                }
+                return val
+            };
+            win.remCalc = remCalc
+        })(window);
+    </script>
+
+
+</head>
+<body>
+<!-- 头部 -->
+<div id="header">
+  <div style="opacity: 0"></div>
+  <span >全部
+  <i class="iconfont icon-sanjiao"></i></span>
+  <i class="iconfont icon-baoguofahuo-xianxing"></i>
+</div>
+
+<!-- 内容区 -->
+<div id="mian">
+  <ul>
+    <li>
+      <img src="http://img550.5lux.com.cn/2018/02/09/ab/151814841993_800x600.jpg" alt="">
+      <p class="text_t">LSAF人寿-美国架构(美国投资人)</p>
+      <p class="text-p">起投金额：<span>$100000</span></p>
+    </li>
+    <li>
+      <img src="http://img550.5lux.com.cn/2018/02/09/ab/151814841993_800x600.jpg" alt="">
+      <p class="text_t">LSAF人寿-美国架构(美国投资人)</p>
+      <p class="text-p">起投金额：<span>$100000</span></p>
+    </li>
+    <li>
+      <img src="http://img550.5lux.com.cn/2018/02/09/ab/151814841993_800x600.jpg" alt="">
+      <p class="text_t">LSAF人寿-美国架构(美国投资人)</p>
+      <p class="text-p">起投金额：<span>$100000</span></p>
+    </li>
+    <li>
+      <img src="http://img550.5lux.com.cn/2018/02/09/ab/151814841993_800x600.jpg" alt="">
+      <p class="text_t">LSAF人寿-美国架构(美国投资人)</p>
+      <p class="text-p">起投金额：<span>$100000</span></p>
+    </li>
+    <li>
+      <img src="http://img550.5lux.com.cn/2018/02/09/ab/151814841993_800x600.jpg" alt="">
+      <p class="text_t">LSAF人寿-美国架构(美国投资人)</p>
+      <p class="text-p">起投金额：<span>$100000</span></p>
+    </li>
+    <li>
+      <img src="http://img550.5lux.com.cn/2018/02/09/ab/151814841993_800x600.jpg" alt="">
+      <p class="text_t">LSAF人寿-美国架构(美国投资人)</p>
+      <p class="text-p">起投金额：<span>$100000</span></p>
+    </li>
+  </ul>
+</div>
+  
+<!-- 尾部 -->
+<div id="footer">
+  <ul>
+    <li>
+      <i class="iconfont icon-xiazai45"></i>
+      <span >首页</span>
+    </li>
+    <li>
+      <i class="iconfont icon-shoujizhongduanxinxichaxun"></i>
+      <span >项目服务</span>
+    </li>
+    <li>
+      <i class="iconfont icon-wangluo"></i>
+      <span >国家地区</span>
+    </li>
+    <li>
+      <i class="iconfont icon-wode"></i>
+      <span >我的</span>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
+<!-- <script src="./js/bscroll.js"></script>
+<script>
+  var mian = document.querySelector("#mian")
+  new BScroll(mian)
+</script> -->
