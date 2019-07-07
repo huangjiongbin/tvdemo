@@ -13,5 +13,7 @@ export default {
 
 
 <style>
-
+h2{
+  background: red;
+}
 </style>
