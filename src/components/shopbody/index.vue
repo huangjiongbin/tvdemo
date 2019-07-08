@@ -2,179 +2,12 @@
       <!-- 内容区 -->
   <div id="mian">
     <!-- 轮播图 -->
-    <div class="swiper-container" ref="swiper">
-      <div class="swiper-wrapper ">
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/05/22/hi/155851924439_750x560.jpg" alt="">
-        </div>
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/07/03/ab/156214055057_750x560.jpg" alt="">
-        </div>
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/07/04/st/156223222315_750x560.jpg" alt="">
-        </div>
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/06/28/de/156170912710_750x560.jpg" alt="">
-        </div>
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/05/31/st/155929471881_750x560.jpg" alt="">
-        </div>
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/05/31/ij/155929523640_750x560.jpg" alt="">
-        </div>
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/06/20/tu/156100200594_750x560.jpg" alt="">
-        </div>
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/07/04/mn/156223072079_750x560.jpg" alt="">
-        </div>
-        <div class="swiper-slide autoplay">
-          <img src="http://img550.5lux.com.cn/2019/07/01/vw/156196213250_750x560.jpg" alt="">
-        </div>
-      </div>
-      <!-- 如果需要分页器 -->
-      <div class="swiper-pagination"></div>
-    </div>
+    <Lbt/>
     <!-- 热门分类导航 -->
-    <div class="nav_list">
-      <div class="list_list">
-        <i class="iconfont icon-form"></i>
-        <span>分类</span>
-      </div>
-      <div class="list_list">
-        <i class="iconfont icon-shangjia"></i>
-        <span>专柜自提</span>
-      </div>
-      <div class="list_list">
-        <i class="iconfont icon-shoujizhongduanxinxichaxun"></i>
-        <span>拼团</span>
-      </div>
-      <div class="list_list">
-        <i class="iconfont icon-supervise"></i>
-        <span>会员特权</span>
-      </div>
-      <div class="list_list">
-        <i class="iconfont icon-gift"></i>
-        <span>礼品</span>
-      </div>
-    </div>
+    <Hotnav/>
     <!-- 限时秒杀 -->
-    <div class="limite">
-      <div class="limitetime">
-        <p>限时秒杀</p>
-        <p class="limite_p">仅剩
-          <span>13</span>:
-          <span>13</span>:
-          <span>13</span>
-        </p>
-      </div>
 
-      <!-- 限时抢购 -->
-      <div class="limitehot">
-        <ul>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-          <li class="limitehot_box">
-            <img src="http://img550.5lux.com.cn/2019/07/05/pq/156228822946_1920x2880_350x350.jpg" alt="">
-            <div>
-              <p class="title_t">Throwback t-shirt</p>
-              <p class="title_m">秒杀价
-                <span>583</span>
-                <strike class="title_l">1224</strike>
-                <p class="title_p">立即抢购</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <Limitehot/>
     <!-- 宝格丽 -->
     <div class="bgl">
       <div class="shopbanner">
@@ -209,75 +42,176 @@
       </div>
     </div>
     <!-- 时尚发布厅 -->
-    <div class="fashion">
-      <div class="fashion_p">
-        <p class="fashion_pp">时尚发布厅</p>
-        <p class="fashion_pf">FASHION TV</p>
-      </div>
-      <div class="fashion_list">
-        <a href="#">
-          <img src="http://img550.5lux.com.cn/2018/10/25/gh/154045757116_750x421.jpg" alt="">
-          <p>Stella McCartney</p>
-        </a>
-      </div>
-      <div class="fashion_listimg">
-        <a href="#"><img src="http://img550.5lux.com.cn/2018/10/25/cd/154045757343_369x456.jpg" alt=""></a>
-        <a href="#"><img src="http://img550.5lux.com.cn/2018/10/25/tu/154045757262_369x456.jpg" alt=""></a>
-      </div>
-
-    </div>
-    <!-- 生活方式 -->
-    <div class="fashion">
-      <div class="fashion_p">
-        <p class="fashion_pp">生活方式</p>
-        <p class="fashion_pf">FASHION TV</p>
-      </div>
-      <div class="fashion_list">
-        <a href="#">
-          <img src="http://img550.5lux.com.cn/2019/07/04/uv/156222263251_668x380.jpg" alt="">
-          <p>AeroJapan</p>
-        </a>
-      </div>
-    </div>
+    <Life/>
     <!-- 大家都在买 -->
-    <div class="fashion buy">
-      <div class="fashion_p">
-        <p class="fashion_pp">大家都在买</p>
-        <p class="fashion_pf">HOT SALES</p>
-      </div>
-      <div class="sales">
-        <ul>
-          <li>
-            <a href="#"><img src="http://img550.5lux.com.cn/2019/07/04/rs/156220830470_1920x2880_350x350.jpg"
-                alt=""></a>
-            <p>Michael Kors</p>
-            <p>￥1297</p>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <HotBuy/>
     <!-- 下拉加载更多 -->
     <div class="load">
       <p>下拉加载更多</p>
     </div>
-
-
   </div>
 </template>
 <script>
-import swiper from "swiper"
-import {getGoods} from "api/home"
-export default {
-  name:"goods",
-  created () {
-     getGoods().then((res)=>{
-      //  var _res = JSON.parse(res);
-       console.log(res)
-     })
+//  import axios from "axios";
+//import {getGoods} from "api/home"
 
-  }
+import Hotnav from "components/shopbody/hotnav"
+import HotBuy from "components/shopbody/hotbuy"
+import Life from "components/shopbody/life"
+import Lbt from "components/shopbody/lbt"
+import Limitehot from "components/shopbody/limitehot"
+import Swiper from "swiper"
+
+
+export default {
+   name:"goods",
+
+   components:{
+     Hotnav,
+     HotBuy,
+     Life,
+     Lbt,
+     Limitehot
+   }
 }
 </script>
 <style>
+/* 内容区 */
+#mian {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  padding: 83px 0 44px 0;
+}
 
+
+/* 宝格丽 */
+.bgl {
+  width: 100%;
+}
+.shopbanner {
+  margin-top: 20px;
+  width: 100%;
+  height: 212px;
+  border-top: 10px solid #f2f2f2;
+}
+.shopbanner img {
+  width: 100%;
+  height: 100%;
+}
+.shoplist {
+  width: 100%;
+  height: 120px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.shoplist ul {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.shoplist ul li {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.shoplist ul li a {
+  height: 120px;
+  display: block;
+}
+.shoplist ul li img {
+  width: 95%;
+}
+.shoplist ul li p {
+  position: absolute;
+  left: 20px;
+  bottom: 40px;
+  z-index: 22;
+  color: #fff;
+}
+.shopaTug {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.shopaTug p {
+  margin: 0 auto;
+  width: 135px;
+  height: 24px;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 24px;
+}
+/* 时尚发布厅 */
+.fashion {
+  width: 100%;
+  font-size: 14px;
+  padding-top: 10px;
+  border-bottom: 10px solid #f2f2f2;
+}
+.fashion .fashion_p {
+  margin: 0 auto;
+  line-height: 20px;
+  text-align: center;
+}
+.fashion .fashion_p .fashion_pp {
+  font-weight: 900;
+}
+.fashion .fashion_p .fashion_pf {
+  font-size: 10px;
+}
+.fashion .fashion_list {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+}
+.fashion .fashion_list img {
+  width: 100%;
+  height: 100%;
+}
+.fashion .fashion_list a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.fashion .fashion_list a p {
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  left: 30%;
+  bottom: 20px;
+}
+.fashion .fashion_listimg {
+  margin-top: 8px;
+  width: 100%;
+  height: 218px;
+  display: flex;
+  justify-content: space-between;
+}
+.fashion .fashion_listimg img {
+  width: 99%;
+  height: 99%;
+}
+/* 下拉加载更多 */
+.load {
+  width: 100%;
+  height: 50px;
+  background: #f2f2f2;
+}
+.load p {
+  color: #ccc;
+  font-size: 14px;
+  text-align: center;
+  line-height: 50px;
+}
 </style>

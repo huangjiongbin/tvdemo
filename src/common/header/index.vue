@@ -5,7 +5,7 @@
       >
       </i>
       <div class="input_i">
-        <input type="text" />
+        <input type="text" value="请输入您要查询的内容"/>
         <i class="iconfont icon-search"></i>
       </div>
       <i class="iconfont icon-scan"></i>
@@ -40,15 +40,18 @@ export default {
 }
 #header .header_t .input_i{
   position: relative;
+  font-size: 14px;
 }
 #header .header_t .input_i input{
   height: 30px;
-  width: 300px;
+  width: 260px;
   background: #ccc;
   background: #ccc;
   position: relative;
   border-radius: 5px;
+  padding-left: 30px;
 }
+
 #header .header_t .input_i i{
   position: absolute;
   left: 10px;

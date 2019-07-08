@@ -11,7 +11,7 @@ module.exports = {
     //当你访问这个路径的时候将你的本地域名替换成target中的域名
     proxy: {//(代理proxy)
       "/index":{//(目标target)放上域名
-        target:"http://apim.restful.5lux.com.cn/",
+        target:"https://apim.restful.5lux.com.cn/",
         //(changeOrigin更改原点)
         changOrigin:true  
       }
