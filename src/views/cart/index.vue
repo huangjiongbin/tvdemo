@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeaderCom/>
   <h2>cart</h2>
   </div>
 </template>

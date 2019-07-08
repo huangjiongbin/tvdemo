@@ -1,5 +1,5 @@
-export default{
+export default {
   path:"/gfit",
-  component:()=>import("views/gfit")
+  component:()=>import("views/gfit"),
   name:"gfit"
 }

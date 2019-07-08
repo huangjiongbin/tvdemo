@@ -8,6 +8,7 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+
 ```
 
 ### Compiles and minifies for production
@@ -20,10 +21,8 @@ npm run build
 npm run test
 ```
 
-### Lints and fixes files
+###当前项目用到的项目点
 ```
-npm run lint
-```
+vue-router vuex axios 路由懒加载
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```

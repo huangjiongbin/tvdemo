@@ -10,8 +10,8 @@ module.exports = {
   devServer: {//(开发服务器devServer)
     //当你访问这个路径的时候将你的本地域名替换成target中的域名
     proxy: {//(代理proxy)
-      "/api":{//(目标target)放上域名
-        target:"https://apim.restful.5lux.com.cn/",
+      "/index":{//(目标target)放上域名
+        target:"http://apim.restful.5lux.com.cn/",
         //(changeOrigin更改原点)
         changOrigin:true  
       }
@@ -23,7 +23,7 @@ module.exports = {
         "@":path.resolve(__dirname,"./src/"),
         "common":path.resolve(__dirname,"./src/common/"),
         "components":path.resolve(__dirname,"./src/components/"),
-        "router":path.resolve(__dirname,"./src/router/"),
+        "router":path.resolve(__dirname,"./src/router"),
         "store":path.resolve(__dirname,"./src/store/"),
         "utils":path.resolve(__dirname,"./src/utils/"),
         "views":path.resolve(__dirname,"./src/views/"),

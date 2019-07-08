@@ -1,5 +1,5 @@
 export default{
   path:"/cart",
-  component:()=>import("views/cart")
+  component:()=>import("views/cart"),
   name:"cart"
 }
