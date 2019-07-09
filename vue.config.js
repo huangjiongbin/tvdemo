@@ -1,7 +1,7 @@
 const path = require("path")
 
 
-
+//https://apim.restful.5lux.com.cn/good/brands
 //跨域配置
 //导出个对象，用来做webpack的配置项
 module.exports = {
@@ -11,8 +11,8 @@ module.exports = {
     //当你访问这个路径的时候将你的本地域名替换成target中的域名
     open:true,
     proxy: {//(代理proxy)
-      "/api":{//(目标target)放上域名
-        target:"https://apim.restful.5lux.com.cn/",
+      "/good":{//(目标target)放上域名
+        target:"https://apim.restful.5lux.com.cn",
         //(changeOrigin更改原点)
         changOrigin:true  
       }

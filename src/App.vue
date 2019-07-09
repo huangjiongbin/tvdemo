@@ -9,7 +9,7 @@
 
 <script>
 import TabBar from "common/footer"
-console.log(TabBar)
+// console.log(TabBar)
 export default {
   name:"app",
   components:{

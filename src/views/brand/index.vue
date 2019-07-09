@@ -98,14 +98,20 @@
 
 
 <script>
-import TabBar from "common/footer"
-console.log(TabBar)
+import {getBrand} from "api/shoppingList"
+import TabBar from "common/footer";
+import GetBrand from "api/shoppingList"
 export default {
     name:"brand",
+  async created() {
+    let data = await getBrand();
+    console.log(data.data);
+  },
     components:{
         TabBar
     }
 }
+
 </script>
 
 
